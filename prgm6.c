@@ -12,9 +12,13 @@ if(year%100==0)
 {
 if(year%400==0)
 {
-printf("leap year");
+ printf("leap year");
 }
 }
+}
+else
+{
+ printf("not a leap year");
 }
 getch();
 }
